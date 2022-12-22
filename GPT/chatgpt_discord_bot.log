@@ -1,0 +1,21 @@
+[30;1m2022-12-23 00:10:41[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-23 00:10:43[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\chatGPT-discord-bot-main\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-23 00:10:44[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-23 00:11:21[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello there' (chung)
+[30;1m2022-12-23 00:11:57[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'introduce your self' (chung)
+[30;1m2022-12-23 00:13:42[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'code me chess game in python' (chung)
+[30;1m2022-12-23 00:17:03[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-23 00:17:04[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\chatGPT-discord-bot-main\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-23 00:17:05[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-23 00:17:28[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello' (chung)
+[30;1m2022-12-23 00:41:55[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'introduce yourself' (hoc-hanh)
