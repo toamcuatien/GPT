@@ -1,0 +1,113 @@
+[30;1m2022-12-23 00:10:41[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-23 00:10:43[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\chatGPT-discord-bot-main\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-23 00:10:44[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-23 00:11:21[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello there' (chung)
+[30;1m2022-12-23 00:11:57[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'introduce your self' (chung)
+[30;1m2022-12-23 00:13:42[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'code me chess game in python' (chung)
+[30;1m2022-12-23 00:17:03[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-23 00:17:04[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\chatGPT-discord-bot-main\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-23 00:17:05[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-23 00:17:28[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello' (chung)
+[30;1m2022-12-23 00:41:55[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'introduce yourself' (hoc-hanh)
+[30;1m2022-12-24 23:59:47[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-24 23:59:49[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-24 23:59:50[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-25 00:00:03[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'cơ hội và thách thức của ngành cơ khí trong tương lai' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:02:34[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'cơ khí tiếng anh là gì' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:02:36[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending message: The server is overloaded or not ready yet.
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\bot.py", line 25, in send_message
+    response = f"{response}{user_message}{await responses.handle_response(user_message)}"
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\responses.py", line 22, in handle_response
+    response = await sync_to_async(openai.Completion.create)(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\asgiref\sync.py", line 448, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\asgiref\sync.py", line 490, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 115, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 181, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 396, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 410, in _interpret_response_line
+    raise error.ServiceUnavailableError(
+openai.error.ServiceUnavailableError: The server is overloaded or not ready yet.[0m
+[30;1m2022-12-25 00:02:51[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello there' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:05:14[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'ngành cơ khí tiếng anh là gì' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:06:02[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'Mechanical Engineering opportunities and challenges' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:06:03[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending message: The server is overloaded or not ready yet.
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\bot.py", line 25, in send_message
+    response = f"{response}{user_message}{await responses.handle_response(user_message)}"
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\responses.py", line 22, in handle_response
+    response = await sync_to_async(openai.Completion.create)(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\asgiref\sync.py", line 448, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\asyncio\tasks.py", line 442, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\asgiref\sync.py", line 490, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 115, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 181, in request
+    resp, got_stream = self._interpret_response(result, stream)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 396, in _interpret_response
+    self._interpret_response_line(
+  File "C:\Python311\Lib\site-packages\openai\api_requestor.py", line 410, in _interpret_response_line
+    raise error.ServiceUnavailableError(
+openai.error.ServiceUnavailableError: The server is overloaded or not ready yet.[0m
+[30;1m2022-12-25 00:06:10[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'Mechanical Engineering opportunities and challenges' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:07:16[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'can you translate these to vietnamese ? Opportunities:  1. Growing demand for skilled professionals in the mechanical engineering field. 2. Increasing demand for energy efficient products, leading to new design challenges and opportunities. 3. Increased emphasis on robotics and automation, creating job opportunities for engineers. 4. Growing demand for green technology solutions, creating opportunities for engineers to develop and design new devices. 5. Expanded research and development opportunities, leading to new and innovative products, devices, and systems.  Challenges:  1. Keeping up with rapidly changing technology, including advances in manufacturing, materials, and software. 2. Designing products and systems that are reliable, safe, and cost effective. 3. Meeting the demands of increasingly complex and integrated systems. 4. Increasing pressure to reduce environmental impact of products and systems. 5. Meeting tight deadlines and budgets.' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
+[30;1m2022-12-25 00:52:45[0m [34;1mINFO    [0m [35msrc.bot[0m -> Send starting prompt with size 11
+[30;1m2022-12-25 00:52:46[0m [31mERROR   [0m [35msrc.bot[0m -> Error while sending starting prompt: 'NoneType' object has no attribute 'send'
+[31mTraceback (most recent call last):
+  File "C:\Users\Admin\Downloads\chatGPT-discord-bot-main\GPT\src\bot.py", line 83, in send_start_prompt
+    await channel.send(responseMessage)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'[0m
+[30;1m2022-12-25 00:52:47[0m [34;1mINFO    [0m [35msrc.bot[0m -> GPT#8610 is now running!
+[30;1m2022-12-25 00:53:01[0m [34;1mINFO    [0m [35msrc.bot[0m -> [31mto#2202[0m : 'hello there' (<PartialMessageable id=1055685770205216848 type=<ChannelType.private: 1>>)
